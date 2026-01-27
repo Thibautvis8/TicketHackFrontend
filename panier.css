@@ -87,22 +87,12 @@ nav {
   margin-right: 50px;
 }
 
-<<<<<<< HEAD
-.delete{
-   background-color: green;
-   color: white;
-   padding: 5px;
-   border-radius: 5px;
-}
-
-=======
 .delete {
   background-color: green;
   color: white;
   padding: 5px;
   border-radius: 5px;
 }
->>>>>>> 95db048b608b96abd4a33b9a510e7c8fde306722
 
 .totalPurchase {
   display: flex;
