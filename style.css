@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  list-style: none;
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+button {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  height: 8vh;
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+#TicketHack {
+  font-size: larger;
+  font-weight: 800;
+  color: rgb(71, 155, 133);
+}
+#PanierResa ul {
+  display: flex;
+  justify-content: space-around;
+}
+#PanierResa ul li {
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#MainContainer {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+
+  height: 92vh;
+}
+
+h1 {
+  margin: 20px auto;
+  max-width: 80%;
+  color: white;
+}
+h2 {
+  margin: 10px auto;
+  max-width: 60%;
+  color: white;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.PanneauxAffichage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: auto 50px;
+  margin-top: 40px;
+}
+
+.leftPart {
+  margin-right: 50px;
+  background-color: rgb(254, 254, 254);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(240, 241, 241);
+  border: none;
+  padding-left: 10px;
+  margin-top: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.404);
+}
+#Search {
+  background-color: rgb(69, 158, 133);
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  color: whitesmoke;
+}
+.rightPart img {
+  height: 30%;
+  position: relative;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 254, 254);
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+h4 {
+  border-top: 2px solid rgb(170, 218, 203);
+  margin-top: 40px;
+  padding-top: 20px;
+}
