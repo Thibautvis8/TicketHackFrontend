@@ -70,7 +70,7 @@ h2 {
 
 .PanneauxAffichage {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   padding: auto 50px;
   margin-top: 40px;
 }
@@ -116,6 +116,25 @@ input {
   background-color: rgb(254, 254, 254);
   margin-left: 50px;
   border-radius: 10px;
+}
+.rightPart ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  font-size: smaller;
+  background-color: rgb(245, 237, 236);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#book {
+  background-color: rgb(69, 158, 133);
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 h4 {
